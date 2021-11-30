@@ -4,7 +4,7 @@ echo "Start program"
 echo "Entered to the function"
 
 list_files() {
-        ls
+        ls $1
 }
 echo "Quit program"
 list_files
